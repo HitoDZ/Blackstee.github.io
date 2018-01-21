@@ -1,0 +1,10 @@
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.deps.json
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.runtimeconfig.json
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.runtimeconfig.dev.json
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.dll
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.pdb
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.csproj.CoreCompileInputs.cache
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.AssemblyInfoInputs.cache
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.AssemblyInfo.cs
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.dll
+d:\Programming\Kivi\Meme\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.pdb
