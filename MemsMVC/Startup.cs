@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 
 namespace MemsMVC
 {
@@ -21,6 +22,7 @@ namespace MemsMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<MemesContext>(opt => opt.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MemesDB;Trusted_Connection=True;"));
             services.AddMvc();
         }
 

@@ -1,0 +1,101 @@
+﻿@using MemsMVC.Models
+@model List<Meme>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<html>
+<head>
+    <script src="https://use.fontawesome.com/06aa9c8068.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top memes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/buttons.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="~/js/buttons.js"></script>
+    <link href="~/css/animate.css" rel="stylesheet" media="all">
+    <link href="~/css/style.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <div class="choice">
+        <a class=" meme button button-block button-rounded button-royal button-giant">Memes rating</a>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[0].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[0].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[1].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[1].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[2].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[2].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[3].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[3].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[4].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[4].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail animated tada">
+                    <a href="#" target="_blank">
+                        <img src="@Model[5].Source" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <p class="h2 text-center">@Model[5].Result points</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").css("display", "none");
+            $("body").fadeIn(800);
+        });
+    </script>
+</body>
+</html>

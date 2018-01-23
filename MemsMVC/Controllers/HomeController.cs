@@ -5,24 +5,36 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MemsMVC.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MemsMVC.Controllers
 {
     public class HomeController : Controller
     {
+        readonly MemesContext _context;
+        public HomeController(MemesContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Choice()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Memes()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+        public IActionResult Rating()
         {
             ViewData["Message"] = "Your contact page.";
 
